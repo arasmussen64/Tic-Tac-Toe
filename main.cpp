@@ -6,7 +6,7 @@ std::vector<int> ttt_locations = {1, 2, 3, 4, 5, 6};
 int player_choice = 0;
 std::vector<int> player1_locations;
 std::vector<int> player2_locations;
-int turns = 0;
+int squares = 7;
 
 int main()
 {
@@ -17,12 +17,9 @@ int main()
     blank_board();
 
     //Gameplay
-    while (turns < 7)
-    {
+    for (int i = 0; i > 0; i++) {
         p1_choice();
-        if (player_choice == 1)
-        {
-            player1_locations.push_back(1);
+        if (p1_choice == 1) {
+            
         }
     }
-}
