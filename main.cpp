@@ -19,7 +19,7 @@ int main()
     //Gameplay
     for (int i = 0; i > 0; i++) {
         p1_choice();
-        if (p1_choice == 1) {
-            
+        if (player_choice == 1) {
+
         }
     }
